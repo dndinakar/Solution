@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: read-json
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: read-json
+  template:
+    metadata:
+      labels:
+        app: read-json
+    spec:
+      containers:
+        - name: read-json
+          image: dndinakar/multipodapp:read-json-v1
+          ports:
+            - containerPort: 9000
