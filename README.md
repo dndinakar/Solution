@@ -7,7 +7,7 @@ Find the applications in folder get-json(application-1) and folder read-json (ap
 Minikube
 
 
-**Minikube yaml files under minipodkube folder** 
+** yaml files under minipodkube folder** 
 
 ######**getjson-service.yaml and getjson-deployment.yaml**
 
