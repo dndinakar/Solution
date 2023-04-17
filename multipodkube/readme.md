@@ -1,6 +1,6 @@
 **Applications**
 
-Find the applications in https://github.com/lakshmidinakar/pythonApp.git getJSON(application-1) and readJSON (application-2)
+Find the applications in folder get-json(application-1) and in folder read-json (application-2)
 
 **Prerequisites**
 
